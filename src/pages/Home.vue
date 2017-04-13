@@ -7,7 +7,7 @@
     .category(v-for='cat in categories', v-if='iconsForCategory(cat).length > 0')
       .title {{ cat }}
       .icons
-        .icon(v-for='icon in iconsForCategory(cat)', :title='aliasString()')
+        .icon(v-for='icon in iconsForCategory(cat)', :title='aliasString(cat, icon)')
           i.material-icons {{ sanitizeIconName(icon) }}
           .name {{ icon }}
 </template>
@@ -54,7 +54,9 @@ export default {
       if (this.searchValue) {
         const searchTerms = this.searchValue.split(' ').filter(x => x !== '')
 
-        icons = icons.filter(x => searchTerms.every(y => x.indexOf(y) !== -1))
+        icons = icons.filter(i => {
+          return searchTerms.every(st => i.indexOf(st) !== -1 || this.getAliasArray(cat, i).some(a => a.indexOf(st) !== -1))
+        })
       }
 
       return icons
@@ -64,8 +66,12 @@ export default {
       return icon.replace(/ /g, '_')
     },
 
-    aliasString (icon) {
-      return 'aliases here'
+    getAliasArray (cat, icon) {
+      return this.iconIndex[cat][icon]
+    },
+
+    aliasString (cat, icon) {
+      return [icon].concat(this.getAliasArray(cat, icon)).join(', ')
     }
   },
   watch: {
@@ -92,6 +98,7 @@ export default {
     left: 10px;
     top: 10px;
     font-size: 36px;
+    color: #888;
   }
 
   input {

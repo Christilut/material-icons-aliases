@@ -1,128 +1,341 @@
 action:
   3d rotation:
     - arrows
-  accessibility: []
-  accessible: []
-  account balance: []
+  accessibility:
+    - user
+    - human
+  accessible:
+    - wheelchair
+    - user
+    - human
+  account balance:
+    - building
+    - temple
   account balance wallet: []
-  account box: []
-  account circle: []
+  account box:
+    - user
+  account circle:
+    - user
   add shopping cart: []
-  alarm: []
-  alarm add: []
-  alarm off: []
-  alarm on: []
-  all out: []
-  android: []
-  announcement: []
-  aspect ratio: []
-  assessment: []
-  assignment: []
-  assignment ind: []
-  assignment late: []
-  assignment return: []
-  assignment returned: []
-  assignment turned in: []
-  autorenew: []
-  backup: []
-  book: []
-  bookmark: []
-  bookmark border: []
-  bug report: []
-  build: []
-  cached: []
-  camera enhance: []
-  card giftcard: []
-  card membership: []
-  card travel: []
-  change history: []
+  alarm:
+    - time
+    - clock
+  alarm add:
+    - time
+    - clock
+  alarm off:
+    - time
+    - clock
+  alarm on:
+    - time
+    - clock
+    - checkmark
+  all out:
+    - arrows
+    - circle
+    - directional
+  android:
+    - operating system
+  announcement:
+    - comment
+    - chat
+    - message
+    - balloon
+    - exclamation
+  aspect ratio:
+    - screen
+    - resolution
+    - monitor
+  assessment:
+    - graph
+    - chart
+  assignment:
+    - clipboard
+  assignment ind:
+    - user
+    - clipboard
+  assignment late:
+    - exclamation
+    - clipboard
+  assignment return:
+    - clipboard
+    - arrow
+  assignment returned:
+    - clipboard
+    - arrow
+  assignment turned in:
+    - clipboard
+    - checkmark
+  autorenew:
+    - arrows
+    - loader
+    - loading
+    - refresh
+  backup:
+    - cloud
+    - arrow
+    - upload
+  book:
+    - bookmark
+  bookmark:
+    - favorite
+  bookmark border:
+    - favorite
+  bug report:
+    - ticket
+    - issue
+  build:
+    - wrench
+    - spanner
+  cached:
+    - arrows
+    - refresh
+    - loading
+    - loader
+  camera enhance:
+    - photo
+  card giftcard:
+    - creditcard
+  card membership:
+    - creditcard
+  card travel:
+    - creditcard
+  change history:
+    - triangle
   check circle: []
   chrome reader mode: []
   class: []
-  code: []
-  compare arrows: []
+  code:
+    - parenthesis
+    - brackets
+  compare arrows:
+    - directional
   copyright: []
-  credit card: []
+  credit card:
+    - creditcard
   dashboard: []
-  date range: []
-  delete: []
-  delete forever: []
-  description: []
-  dns: []
-  done: []
-  done all: []
-  donut large: []
-  donut small: []
+  date range:
+    - calendar
+    - agenda
+  delete:
+    - trashcan
+    - bin
+    - recycle
+  delete forever:
+    - trashcan
+    - bin
+    - recycle
+  description:
+    - file
+    - document
+  dns:
+    - server
+    - network
+  done:
+    - checkmark
+  done all:
+    - checkmark
+  donut large:
+    - circle
+  donut small:
+    - circle
   eject: []
-  euro symbol: []
-  event: []
-  event seat: []
-  exit to app: []
-  explore: []
-  extension: []
-  face: []
-  favorite: []
-  favorite border: []
-  feedback: []
-  find in page: []
-  find replace: []
-  fingerprint: []
-  flight land: []
-  flight takeoff: []
+  euro symbol:
+    - financial
+  event:
+    - calendar
+    - agenda
+  event seat:
+    - chair
+    - bench
+    - sit
+  exit to app:
+    - quit
+  explore:
+    - compass
+    - map
+  extension:
+    - puzzle
+  face:
+    - person
+    - human
+    - user
+  favorite:
+    - heart
+    - love
+  favorite border:
+    - heart
+    - love
+  feedback:
+    - comment
+    - message
+    - chat
+  find in page:
+    - search
+  find replace:
+    - search
+  fingerprint:
+    - biometrics
+    - touchid
+  flight land:
+    - airplane
+    - flying
+  flight takeoff:
+    - airplane
+    - flying
   flip to back: []
   flip to front: []
-  g translate: []
-  gavel: []
-  get app: []
-  gif: []
-  grade: []
-  group work: []
-  help: []
-  help outline: []
-  highlight off: []
-  history: []
-  home: []
-  hourglass empty: []
-  hourglass full: []
-  http: []
-  https: []
-  important devices: []
-  info: []
-  info outline: []
-  input: []
-  invert colors: []
-  label: []
-  label outline: []
-  language: []
-  launch: []
+  g translate:
+    - google
+  gavel:
+    - hammer
+  get app:
+    - download
+  gif:
+    - animated
+  grade:
+    - star
+    - rating
+    - rate
+  group work:
+    - circle
+  help:
+    - question mark
+  help outline:
+    - question mark
+  highlight off:
+    - delete
+    - disable
+    - clear
+    - remove
+    - circle
+  history:
+    - time
+    - revert
+    - undo
+    - clock
+  home:
+    - building
+    - house
+  hourglass empty:
+    - time
+  hourglass full:
+    - time
+  http:
+    - network
+    - internet
+    - web
+  https:
+    - network
+    - internet
+    - web
+    - security
+    - lock
+  important devices:
+    - computer
+    - phone
+    - monitor
+  info:
+    - circle
+    - information
+  info outline:
+    - circle
+    - information
+  input:
+    - arrow
+  invert colors:
+    - drop
+    - water
+    - liquid
+  label:
+    - tag
+    - badge
+  label outline:
+    - tag
+    - badge
+  language:
+    - earth
+    - world
+    - web
+  launch:
+    - arrow
   lightbulb outline: []
-  line style: []
-  line weight: []
-  list: []
-  lock: []
-  lock open: []
-  lock outline: []
-  loyalty: []
+  line style:
+    - editor
+  line weight:
+    - editor
+  list:
+    - editor
+  lock:
+    - security
+  lock open:
+    - security
+  lock outline:
+    - security
+  loyalty:
+    - tag
+    - badge
+    - heart
+    - love
   markunread mailbox: []
-  motorcycle: []
-  note add: []
-  offline pin: []
-  opacity: []
+  motorcycle:
+    - motorbike
+  note add:
+    - document
+    - create
+  offline pin:
+    - checkmark
+    - circle
+  opacity:
+    - drop
+    - water
+    - liquid
   open in browser: []
   open in new: []
-  open with: []
-  pageview: []
-  pan tool: []
-  payment: []
+  open with:
+    - arrows
+    - directional
+  pageview:
+    - search
+    - find
+    - looking glass
+  pan tool:
+    - hand
+    - touch
+    - drag
+  payment:
+    - creditcard
+    - financial
   perm camera mic: []
-  perm contact calendar: []
-  perm data setting: []
-  perm device information: []
-  perm identity: []
-  perm media: []
-  perm phone msg: []
-  perm scan wifi: []
-  pets: []
+  perm contact calendar:
+    - user
+    - agenda
+  perm data setting:
+    - wifi
+    - wireless
+    - network
+    - cellular
+    - configure
+  perm device information:
+    - phone
+    - mobile
+  perm identity:
+    - user
+  perm media:
+    - folders
+    - directories
+  perm phone msg:
+    - mobile
+    - message
+  perm scan wifi:
+    - network
+    - wireless
+  pets:
+    - animal
+    - claw
+    - paw
+    - dog
+    - cat
   picture in picture: []
   picture in picture alt: []
   play for work: []
