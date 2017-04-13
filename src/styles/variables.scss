@@ -1,0 +1,50 @@
+// Colors
+$red: hsl(0, 64%, 58%);
+$orange: hsl(35, 84%, 62%);
+$green: hsl(120, 39%, 54%);
+$blue: hsl(208, 98%, 43%);
+$lightblue: hsl(194, 66%, 61%);
+$disabled: hsl(0, 0%, 73%);
+$white: rgba(255, 255, 255, 0.9);
+
+$gray25: hsl(0, 0%, 25%);
+$gray50: hsl(0, 0%, 50%);
+$gray75: hsl(0, 0%, 75%);
+$gray90: hsl(0, 0%, 90%);
+
+$primary: #316371;
+
+// Custom css
+a {
+  color: $lightblue;
+  padding: 0 3px 3px 3px;
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: $lightblue;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+  }
+
+  &:hover {
+    &:after {
+      width: 0;
+    }
+  }
+}
+
+div.error,
+span.error,
+p.error {
+  color: $red;
+}
+
+textarea.error,
+input.error {
+  border-color: $red;
+}
