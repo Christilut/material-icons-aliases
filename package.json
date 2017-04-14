@@ -11,6 +11,7 @@
   "homepage": "https://materialicons-alias.today",
   "scripts": {
     "buildIcons": "node --harmony build/icons.js",
+    "commitIcons": "npm run buildIcons -- commit",
     "deploy": "git pull && npm run build && firebase deploy",
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
@@ -101,7 +102,7 @@
     "webpack-merge": "^2.6.1"
   },
   "engines": {
-    "node": ">= 4.0.0",
+    "node": ">= 7.0.0",
     "npm": ">= 3.0.0"
   },
   "browserslist": [

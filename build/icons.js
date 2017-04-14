@@ -77,5 +77,4 @@ const ICONS_PATH = path.join(__dirname, '..', 'icons.yml')
       shell.exec('git commit -n -m "automated commit"')
       shell.exec('git push')
     }
-  })
-
+  })()

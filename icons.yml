@@ -10,12 +10,12 @@ action:
   account balance:
     - building
     - temple
-  account balance wallet:
+  account balance wallet: []
   account box:
     - user
   account circle:
     - user
-  add shopping cart:
+  add shopping cart: []
   alarm:
     - time
     - clock
@@ -101,18 +101,18 @@ action:
     - creditcard
   change history:
     - triangle
-  check circle:
-  chrome reader mode:
-  class:
+  check circle: []
+  chrome reader mode: []
+  class: []
   code:
     - parenthesis
     - brackets
   compare arrows:
     - directional
-  copyright:
+  copyright: []
   credit card:
     - creditcard
-  dashboard:
+  dashboard: []
   date range:
     - calendar
     - agenda
@@ -138,7 +138,7 @@ action:
     - circle
   donut small:
     - circle
-  eject:
+  eject: []
   euro symbol:
     - financial
     - money
@@ -182,8 +182,8 @@ action:
   flight takeoff:
     - airplane
     - flying
-  flip to back:
-  flip to front:
+  flip to back: []
+  flip to front: []
   g translate:
     - google
   gavel:
@@ -258,7 +258,7 @@ action:
     - web
   launch:
     - arrow
-  lightbulb outline:
+  lightbulb outline: []
   line style:
     - editor
   line weight:
@@ -276,7 +276,7 @@ action:
     - badge
     - heart
     - love
-  markunread mailbox:
+  markunread mailbox: []
   motorcycle:
     - motorbike
   note add:
@@ -289,8 +289,8 @@ action:
     - drop
     - water
     - liquid
-  open in browser:
-  open in new:
+  open in browser: []
+  open in new: []
   open with:
     - arrows
     - directional
@@ -306,7 +306,7 @@ action:
     - creditcard
     - financial
     - money
-  perm camera mic:
+  perm camera mic: []
   perm contact calendar:
     - user
     - agenda
@@ -336,13 +336,13 @@ action:
     - paw
     - dog
     - cat
-  picture in picture:
-  picture in picture alt:
+  picture in picture: []
+  picture in picture alt: []
   play for work:
     - arrow
-  polymer:
+  polymer: []
   power settings new:
-    - off
+    - 'off'
   pregnant woman:
     - user
     - person
@@ -364,7 +364,7 @@ action:
   redeem:
     - present
     - giftcard
-  remove shopping cart:
+  remove shopping cart: []
   reorder:
     - lines
   report problem:
@@ -384,7 +384,7 @@ action:
   room:
     - location
     - gps
-  rounded corner:
+  rounded corner: []
   rowing:
     - sports
   schedule:
@@ -425,9 +425,9 @@ action:
     - cable
   settings input svideo:
     - plugs
-  settings overscan:
-  settings phone:
-  settings power:
+  settings overscan: []
+  settings phone: []
+  settings power: []
   settings remote:
     - control
   settings voice:
@@ -436,8 +436,8 @@ action:
     - briefcase
   shop two:
     - briefcase
-  shopping basket:
-  shopping cart:
+  shopping basket: []
+  shopping cart: []
   speaker notes:
     - message
     - chat
@@ -469,15 +469,15 @@ action:
     - arrows
   system update alt:
     - arrow
-  tab:
-  tab unselected:
+  tab: []
+  tab unselected: []
   theaters:
     - video
     - media
     - photography
-  thumb down:
-  thumb up:
-  thumbs up down:
+  thumb down: []
+  thumb up: []
+  thumbs up down: []
   timeline:
     - chart
     - graph
@@ -511,8 +511,8 @@ action:
     - arrow
     - chart
     - graph
-  turned in:
-  turned in not:
+  turned in: []
+  turned in not: []
   update:
     - clock
     - time
@@ -592,28 +592,28 @@ av:
   album:
     - vinyl
     - cd
-  art track:
+  art track: []
   av timer:
     - stopwatch
-  branding watermark:
-  call to action:
+  branding watermark: []
+  call to action: []
   closed caption:
     - subtitles
   equalizer:
     - graph
     - chart
-  explicit:
-  fast forward:
-  fast rewind:
-  featured play list:
-  featured video:
-  fiber dvr:
+  explicit: []
+  fast forward: []
+  fast rewind: []
+  featured play list: []
+  featured video: []
+  fiber dvr: []
   fiber manual record:
     - dot
     - circle
-  fiber new:
-  fiber pin:
-  fiber smart record:
+  fiber new: []
+  fiber pin: []
+  fiber smart record: []
   forward 10:
     - arrow
     - circle
@@ -629,8 +629,8 @@ av:
     - xbox
     - dpad
     - controller
-  hd:
-  hearing:
+  hd: []
+  hearing: []
   high quality:
     - hq
   library add:
@@ -652,7 +652,7 @@ av:
   movie:
     - video
     - film
-  music video:
+  music video: []
   new releases:
     - exclamation
   not interested:
@@ -660,21 +660,21 @@ av:
     - not allowed
     - banned
     - prohibited
-  note:
-  pause:
-  pause circle filled:
-  pause circle outline:
-  play arrow:
-  play circle filled:
-  play circle outline:
-  playlist add:
+  note: []
+  pause: []
+  pause circle filled: []
+  pause circle outline: []
+  play arrow: []
+  play circle filled: []
+  play circle outline: []
+  playlist add: []
   playlist add check:
     - checkmark
-  playlist play:
-  queue:
-  queue music:
-  queue play next:
-  radio:
+  playlist play: []
+  queue: []
+  queue music: []
+  queue play next: []
+  radio: []
   recent actors:
     - contacts
   remove from queue:
@@ -699,8 +699,8 @@ av:
     - arrow
   shuffle:
     - arrows
-  skip next:
-  skip previous:
+  skip next: []
+  skip previous: []
   slow motion video:
     - circle
     - time
@@ -721,7 +721,7 @@ av:
     - audio
   video call:
     - camera
-  video label:
+  video label: []
   video library:
     - collection
   videocam:
@@ -738,7 +738,7 @@ av:
     - sound
   web:
     - blocks
-  web asset:
+  web asset: []
 communication:
   business:
     - building
@@ -817,7 +817,7 @@ communication:
   message:
     - chat
     - comment
-  no sim:
+  no sim: []
   phone:
     - mobile
   phonelink erase:
@@ -866,7 +866,7 @@ communication:
     - message
     - chat
     - comment
-  voicemail:
+  voicemail: []
   vpn key:
     - security
 content:
@@ -887,7 +887,7 @@ content:
     - plus
     - new
     - create
-  archive:
+  archive: []
   backspace:
     - delete
     - clear
@@ -919,7 +919,7 @@ content:
     - envelope
   filter list:
     - lines
-  flag:
+  flag: []
   font download:
     - letter
     - square
@@ -928,8 +928,8 @@ content:
   gesture:
     - line
     - drawing
-  inbox:
-  link:
+  inbox: []
+  link: []
   low priority:
     - arrow
     - list
@@ -939,7 +939,7 @@ content:
   markunread:
     - letter
     - envelope
-  move to inbox:
+  move to inbox: []
   next week:
     - suitcase
     - briefcase
@@ -965,7 +965,7 @@ content:
   save:
     - floppy
     - diskette
-  select all:
+  select all: []
   send:
     - chat
     - message
@@ -1000,24 +1000,24 @@ device:
     - flying
   airplanemode inactive:
     - flying
-  battery 20:
-  battery 30:
-  battery 50:
-  battery 60:
-  battery 80:
-  battery 90:
+  battery 20: []
+  battery 30: []
+  battery 50: []
+  battery 60: []
+  battery 80: []
+  battery 90: []
   battery alert:
     - exclamation
-  battery charging 20:
-  battery charging 30:
-  battery charging 50:
-  battery charging 60:
-  battery charging 80:
-  battery charging 90:
+  battery charging 20: []
+  battery charging 30: []
+  battery charging 50: []
+  battery charging 60: []
+  battery charging 80: []
+  battery charging 90: []
   battery charging full:
     - lightning
-  battery full:
-  battery std:
+  battery full: []
+  battery std: []
   battery unknown:
     - question
   bluetooth:
@@ -1032,10 +1032,10 @@ device:
   bluetooth searching:
     - wireless
     - network
-  brightness auto:
-  brightness high:
-  brightness low:
-  brightness medium:
+  brightness auto: []
+  brightness high: []
+  brightness low: []
+  brightness medium: []
   data usage:
     - circle
   developer mode:
@@ -1049,16 +1049,16 @@ device:
     - laptop
   gps fixed:
     - location
-  gps not fixed:
-  gps off:
+  gps not fixed: []
+  gps off: []
   graphic eq:
     - equalizer
     - audio
-  location disabled:
-  location searching:
-  network cell:
-  network wifi:
-  nfc:
+  location disabled: []
+  location searching: []
+  network cell: []
+  network wifi: []
+  nfc: []
   screen lock landscape:
     - mobile
     - phone
@@ -1077,50 +1077,50 @@ device:
     - microsd
   settings system daydream:
     - cloud
-  signal cellular 0 bar:
-  signal cellular 1 bar:
-  signal cellular 2 bar:
-  signal cellular 3 bar:
+  signal cellular 0 bar: []
+  signal cellular 1 bar: []
+  signal cellular 2 bar: []
+  signal cellular 3 bar: []
   signal cellular 4 bar:
     - network
-  signal cellular connected no internet 0 bar:
-  signal cellular connected no internet 1 bar:
-  signal cellular connected no internet 2 bar:
-  signal cellular connected no internet 3 bar:
+  signal cellular connected no internet 0 bar: []
+  signal cellular connected no internet 1 bar: []
+  signal cellular connected no internet 2 bar: []
+  signal cellular connected no internet 3 bar: []
   signal cellular connected no internet 4 bar:
     - network
-  signal cellular no sim:
+  signal cellular no sim: []
   signal cellular null:
     - wifi
   signal cellular off:
     - network
-  signal wifi 0 bar:
-  signal wifi 1 bar:
-  signal wifi 1 bar lock:
-  signal wifi 2 bar:
-  signal wifi 2 bar lock:
-  signal wifi 3 bar:
-  signal wifi 3 bar lock:
-  signal wifi 4 bar:
+  signal wifi 0 bar: []
+  signal wifi 1 bar: []
+  signal wifi 1 bar lock: []
+  signal wifi 2 bar: []
+  signal wifi 2 bar lock: []
+  signal wifi 3 bar: []
+  signal wifi 3 bar lock: []
+  signal wifi 4 bar: []
   signal wifi 4 bar lock:
     - network
   signal wifi off:
     - network
-  signal wifi statusbar 1 bar 26x:
-  signal wifi statusbar 2 bar 26x:
-  signal wifi statusbar 3 bar 26x:
-  signal wifi statusbar 4 bar 26x:
-  signal wifi statusbar connected no internet 1 26x:
-  signal wifi statusbar connected no internet 2 26x:
-  signal wifi statusbar connected no internet 26x:
-  signal wifi statusbar connected no internet 3 26x:
-  signal wifi statusbar connected no internet 4 26x:
-  signal wifi statusbar not connected 26x:
-  signal wifi statusbar null 26x:
+  signal wifi statusbar 1 bar 26x: []
+  signal wifi statusbar 2 bar 26x: []
+  signal wifi statusbar 3 bar 26x: []
+  signal wifi statusbar 4 bar 26x: []
+  signal wifi statusbar connected no internet 1 26x: []
+  signal wifi statusbar connected no internet 2 26x: []
+  signal wifi statusbar connected no internet 26x: []
+  signal wifi statusbar connected no internet 3 26x: []
+  signal wifi statusbar connected no internet 4 26x: []
+  signal wifi statusbar not connected 26x: []
+  signal wifi statusbar null 26x: []
   storage:
     - network
     - server
-  usb:
+  usb: []
   wallpaper:
     - image
     - picture
@@ -1136,21 +1136,21 @@ editor:
   attach money:
     - financial
     - dollar
-  border all:
-  border bottom:
-  border clear:
+  border all: []
+  border bottom: []
+  border clear: []
   border color:
     - pencil
     - marker
     - create
-  border horizontal:
-  border inner:
-  border left:
-  border outer:
-  border right:
-  border style:
-  border top:
-  border vertical:
+  border horizontal: []
+  border inner: []
+  border left: []
+  border outer: []
+  border right: []
+  border style: []
+  border top: []
+  border vertical: []
   bubble chart:
     - graph
   drag handle:
@@ -1163,33 +1163,33 @@ editor:
     - lines
   format align right:
     - lines
-  format bold:
-  format clear:
+  format bold: []
+  format clear: []
   format color fill:
     - bucket
   format color reset:
     - drop
     - water
     - liquid
-  format color text:
-  format indent decrease:
-  format indent increase:
-  format italic:
-  format line spacing:
-  format list bulleted:
-  format list numbered:
+  format color text: []
+  format indent decrease: []
+  format indent increase: []
+  format italic: []
+  format line spacing: []
+  format list bulleted: []
+  format list numbered: []
   format paint:
     - paintroller
   format quote:
     - quotation
-  format shapes:
-  format size:
-  format strikethrough:
+  format shapes: []
+  format size: []
+  format strikethrough: []
   format textdirection l to r:
     - paragraph
   format textdirection r to l:
     - paragraph
-  format underlined:
+  format underlined: []
   functions:
     - sigma
   highlight:
@@ -1200,16 +1200,16 @@ editor:
   insert comment:
     - chat
     - message
-  insert drive file:
-  insert emoticon:
+  insert drive file: []
+  insert emoticon: []
   insert invitation:
     - agenda
     - calendar
-  insert link:
+  insert link: []
   insert photo:
     - image
     - wallpaper
-  linear scale:
+  linear scale: []
   merge type:
     - arrow
   mode comment:
@@ -1240,10 +1240,10 @@ editor:
     - lines
   show chart:
     - graph
-  space bar:
-  strikethrough s:
-  text fields:
-  title:
+  space bar: []
+  strikethrough s: []
+  text fields: []
+  title: []
   vertical align bottom:
     - arrow
   vertical align center:
@@ -1255,18 +1255,18 @@ editor:
 file:
   attachment:
     - paperclip
-  cloud:
-  cloud circle:
+  cloud: []
+  cloud circle: []
   cloud done:
     - checkmark
-  cloud download:
-  cloud off:
-  cloud queue:
-  cloud upload:
+  cloud download: []
+  cloud off: []
+  cloud queue: []
+  cloud upload: []
   create new folder:
     - directory
-  file download:
-  file upload:
+  file download: []
+  file upload: []
   folder:
     - directory
   folder open:
@@ -1291,46 +1291,46 @@ hardware:
     - monitor
   developer board:
     - devkit
-  device hub:
+  device hub: []
   devices other:
     - smartwatch
   dock:
     - charger
-  gamepad:
+  gamepad: []
   headset:
     - earmuffs
     - headphones
   headset mic:
     - headphones
-  keyboard:
-  keyboard arrow down:
-  keyboard arrow left:
-  keyboard arrow right:
-  keyboard arrow up:
-  keyboard backspace:
+  keyboard: []
+  keyboard arrow down: []
+  keyboard arrow left: []
+  keyboard arrow right: []
+  keyboard arrow up: []
+  keyboard backspace: []
   keyboard capslock:
     - arrow
-  keyboard hide:
+  keyboard hide: []
   keyboard return:
     - arrow
   keyboard tab:
     - arrow
-  keyboard voice:
-  laptop:
-  laptop chromebook:
+  keyboard voice: []
+  laptop: []
+  laptop chromebook: []
   laptop mac:
     - apple
-  laptop windows:
+  laptop windows: []
   memory:
     - chip
-  mouse:
+  mouse: []
   phone android:
     - mobile
   phone iphone:
     - mobile
     - apple
-  phonelink:
-  phonelink off:
+  phonelink: []
+  phonelink off: []
   power input:
     - dc
   router:
@@ -1340,15 +1340,15 @@ hardware:
     - device
   security:
     - shield
-  sim card:
+  sim card: []
   smartphone:
     - mobile
   speaker:
     - audio
   speaker group:
     - audio
-  tablet:
-  tablet android:
+  tablet: []
+  tablet android: []
   tablet mac:
     - apple
   toys:
@@ -1374,15 +1374,15 @@ image:
     - star
     - comment
     - chat
-  assistant photo:
+  assistant photo: []
   audiotrack:
     - note
   blur circular:
-  - circle
-  blur linear:
-  blur off:
-  blur on:
-  brightness 1:
+    - circle
+  blur linear: []
+  blur off: []
+  blur on: []
+  brightness 1: []
   brightness 2:
     - moon
   brightness 3:
@@ -1403,27 +1403,27 @@ image:
   burst mode:
     - image
     - picture
-  camera:
-  camera alt:
-  camera front:
-  camera rear:
-  camera roll:
-  center focus strong:
-  center focus weak:
-  collections:
-  collections bookmark:
-  color lens:
+  camera: []
+  camera alt: []
+  camera front: []
+  camera rear: []
+  camera roll: []
+  center focus strong: []
+  center focus weak: []
+  collections: []
+  collections bookmark: []
+  color lens: []
   colorize:
     - color picker
     - pipette
-  compare:
+  compare: []
   control point:
     - circle
     - plus
   control point duplicate:
     - circle
     - plus
-  crop:
+  crop: []
   crop 16 9:
     - square
   crop 3 2:
@@ -1442,12 +1442,12 @@ image:
     - square
   crop portrait:
     - square
-  crop rotate:
-  crop square:
-  dehaze:
+  crop rotate: []
+  crop square: []
+  dehaze: []
   details:
     - triangle
-  edit:
+  edit: []
   exposure:
     - plus
     - minus
@@ -1459,27 +1459,27 @@ image:
     - plus
   exposure plus 2:
     - plus
-  exposure zero:
-  filter:
-  filter 1:
-  filter 2:
-  filter 3:
-  filter 4:
-  filter 5:
-  filter 6:
-  filter 7:
-  filter 8:
-  filter 9:
-  filter 9 plus:
-  filter b and w:
-  filter center focus:
+  exposure zero: []
+  filter: []
+  filter 1: []
+  filter 2: []
+  filter 3: []
+  filter 4: []
+  filter 5: []
+  filter 6: []
+  filter 7: []
+  filter 8: []
+  filter 9: []
+  filter 9 plus: []
+  filter b and w: []
+  filter center focus: []
   filter drama:
     - cloud
-  filter frames:
+  filter frames: []
   filter hdr:
     - mountains
-  filter none:
-  filter tilt shift:
+  filter none: []
+  filter tilt shift: []
   filter vintage:
     - flower
   flare:
@@ -1490,43 +1490,43 @@ image:
     - lightning
   flash on:
     - lightning
-  flip:
-  gradient:
-  grain:
-  grid off:
-  grid on:
-  hdr off:
-  hdr on:
-  hdr strong:
-  hdr weak:
+  flip: []
+  gradient: []
+  grain: []
+  grid off: []
+  grid on: []
+  hdr off: []
+  hdr on: []
+  hdr strong: []
+  hdr weak: []
   healing:
     - bandaid
   image:
     - picture
-  image aspect ratio:
-  iso:
-  landscape:
-  leak add:
-  leak remove:
-  lens:
-  linked camera:
+  image aspect ratio: []
+  iso: []
+  landscape: []
+  leak add: []
+  leak remove: []
+  lens: []
+  linked camera: []
   looks:
     - rainbow
-  looks 3:
-  looks 4:
-  looks 5:
-  looks 6:
-  looks one:
-  looks two:
-  loupe:
-  monochrome photos:
+  looks 3: []
+  looks 4: []
+  looks 5: []
+  looks 6: []
+  looks one: []
+  looks two: []
+  loupe: []
+  monochrome photos: []
   movie creation:
     - video
     - film
   movie filter:
     - video
     - film
-  music note:
+  music note: []
   nature:
     - tree
     - forest
@@ -1538,31 +1538,31 @@ image:
     - arrow
   navigate next:
     - arrow
-  palette:
+  palette: []
   panorama:
     - picture
     - image
-  panorama fish eye:
-  panorama horizontal:
-  panorama vertical:
-  panorama wide angle:
-  photo:
+  panorama fish eye: []
+  panorama horizontal: []
+  panorama vertical: []
+  panorama wide angle: []
+  photo: []
   photo album:
     - picture
     - image
   photo camera:
     - picture
     - image
-  photo filter:
+  photo filter: []
   photo library:
     - picture
     - image
-  photo size select actual:
-  photo size select large:
-  photo size select small:
-  picture as pdf:
-  portrait:
-  remove red eye:
+  photo size select actual: []
+  photo size select large: []
+  photo size select small: []
+  picture as pdf: []
+  portrait: []
+  remove red eye: []
   rotate 90 degrees ccw:
     - arrow
   rotate left:
@@ -1571,23 +1571,23 @@ image:
   rotate right:
     - arrow
     - circle
-  slideshow:
+  slideshow: []
   straighten:
     - piano
-  style:
-  switch camera:
-  switch video:
-  tag faces:
-  texture:
-  timelapse:
+  style: []
+  switch camera: []
+  switch video: []
+  tag faces: []
+  texture: []
+  timelapse: []
   timer:
     - stopwatch
-  timer 10:
-  timer 3:
+  timer 10: []
+  timer 3: []
   timer off:
     - stopwatch
-  tonality:
-  transform:
+  tonality: []
+  transform: []
   tune:
     - settings
     - sliders
@@ -1595,13 +1595,13 @@ image:
     - grid
   view compact:
     - grid
-  vignette:
-  wb auto:
-  wb cloudy:
+  vignette: []
+  wb auto: []
+  wb cloudy: []
   wb incandescent:
     - lightbulb
-  wb iridescent:
-  wb sunny:
+  wb iridescent: []
+  wb sunny: []
 maps:
   add location:
     - gps
@@ -1612,13 +1612,13 @@ maps:
     - arrow
   directions bike:
     - bicycle
-  directions boat:
-  directions bus:
-  directions car:
-  directions railway:
+  directions boat: []
+  directions bus: []
+  directions car: []
+  directions railway: []
   directions run:
     - person
-  directions subway:
+  directions subway: []
   directions transit:
     - subway
     - metro
@@ -1637,8 +1637,8 @@ maps:
   hotel:
     - bed
     - sleep
-  layers:
-  layers clear:
+  layers: []
+  layers clear: []
   local activity:
     - star
   local airport:
@@ -1655,7 +1655,7 @@ maps:
   local cafe:
     - drink
     - coffee
-  local car wash:
+  local car wash: []
   local convenience store:
     - building
   local dining:
@@ -1671,35 +1671,35 @@ maps:
     - gasoline
     - fuel
     - filling station
-  local grocery store:
+  local grocery store: []
   local hospital:
     - plus
-  local hotel:
-  local laundry service:
+  local hotel: []
+  local laundry service: []
   local library:
     - book
     - person
   local mall:
     - shopping bag
-  local movies:
-  local offer:
-  local parking:
+  local movies: []
+  local offer: []
+  local parking: []
   local pharmacy:
     - food
-  local phone:
-  local pizza:
-  local play:
-  local post office:
-  local printshop:
-  local see:
+  local phone: []
+  local pizza: []
+  local play: []
+  local post office: []
+  local printshop: []
+  local see: []
   local shipping:
     - car
     - truck
     - semi
   local taxi:
     - car
-  map:
-  my location:
+  map: []
+  my location: []
   navigation:
     - arrow
   near me:
@@ -1713,7 +1713,7 @@ maps:
   pin drop:
     - location
     - gps
-  place:
+  place: []
   rate review:
     - comment
     - message
@@ -1722,8 +1722,8 @@ maps:
     - cutlery
     - knife
     - fork
-  restaurant menu:
-  satellite:
+  restaurant menu: []
+  satellite: []
   store mall directory:
     - building
   streetview:
@@ -1732,11 +1732,11 @@ maps:
     - location
   subway:
     - metro
-  terrain:
+  terrain: []
   traffic:
     - light
-  train:
-  tram:
+  train: []
+  tram: []
   transfer within a station:
     - person
   zoom out map:
@@ -1744,13 +1744,13 @@ maps:
 navigation:
   apps:
     - grid
-  arrow back:
-  arrow downward:
-  arrow drop down:
-  arrow drop down circle:
-  arrow drop up:
-  arrow forward:
-  arrow upward:
+  arrow back: []
+  arrow downward: []
+  arrow drop down: []
+  arrow drop down circle: []
+  arrow drop up: []
+  arrow forward: []
+  arrow upward: []
   cancel:
     - disable
     - cross
@@ -1770,16 +1770,16 @@ navigation:
     - arrow
   first page:
     - arrow
-  fullscreen:
-  fullscreen exit:
+  fullscreen: []
+  fullscreen exit: []
   last page:
     - arrow
-  menu:
+  menu: []
   more horiz:
     - dots
   more vert:
     - dots
-  refresh:
+  refresh: []
   subdirectory arrow left:
     - arrow
   subdirectory arrow right:
@@ -1800,12 +1800,12 @@ notification:
   airline seat individual suite:
     - bed
     - sleep
-  airline seat legroom extra:
-  airline seat legroom normal:
-  airline seat legroom reduced:
-  airline seat recline extra:
-  airline seat recline normal:
-  bluetooth audio:
+  airline seat legroom extra: []
+  airline seat legroom normal: []
+  airline seat legroom reduced: []
+  airline seat recline extra: []
+  airline seat recline normal: []
+  bluetooth audio: []
   confirmation number:
     - ticket
   disc full:
@@ -1820,7 +1820,7 @@ notification:
     - banned
   do not disturb on:
     - banned
-  drive eta:
+  drive eta: []
   enhanced encryption:
     - security
     - lock
@@ -1858,20 +1858,20 @@ notification:
   personal video:
     - monitor
     - television
-  phone bluetooth speaker:
-  phone forwarded:
-  phone in talk:
+  phone bluetooth speaker: []
+  phone forwarded: []
+  phone in talk: []
   phone locked:
     - security
-  phone missed:
-  phone paused:
+  phone missed: []
+  phone paused: []
   power:
     - socket
     - plug
   priority high:
     - exclamation
-  rv hookup:
-  sd card:
+  rv hookup: []
+  sd card: []
   sim card alert:
     - exclamation
   sms:
@@ -1882,7 +1882,7 @@ notification:
     - chat
     - comment
     - message
-  sync:
+  sync: []
   sync disabled:
     - refresh
     - arrows
@@ -1894,7 +1894,7 @@ notification:
   tap and play:
     - nfc
     - wifi
-  time to leave:
+  time to leave: []
   vibration:
     - mobile
     - phone
@@ -1949,7 +1949,7 @@ places:
     - swimming
   room service:
     - bell
-  rv hookup:
+  rv hookup: []
   smoke free:
     - sigarette
   smoking rooms:
@@ -1959,7 +1959,7 @@ places:
 social:
   cake:
     - pie
-  domain:
+  domain: []
   group:
     - person
     - user
@@ -1992,8 +1992,8 @@ social:
   notifications paused:
     - bell
     - ring
-  pages:
-  party mode:
+  pages: []
+  party mode: []
   people:
     - person
     - user
@@ -2037,7 +2037,7 @@ social:
     - smiley
     - emoji
     - emoticon
-  share:
+  share: []
   whatshot:
     - fire
 toggle:
