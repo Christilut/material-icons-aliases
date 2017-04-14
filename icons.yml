@@ -141,6 +141,7 @@ action:
   eject:
   euro symbol:
     - financial
+    - money
   event:
     - calendar
     - agenda
@@ -304,6 +305,7 @@ action:
   payment:
     - creditcard
     - financial
+    - money
   perm camera mic:
   perm contact calendar:
     - user
