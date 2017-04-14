@@ -73,7 +73,7 @@ export default {
       icons = icons.filter(x => !BAD_WORDS.some(y => x.indexOf(y) !== -1))
 
       if (this.searchValue) {
-        const searchTerms = this.searchValue.split(' ').filter(x => x !== '')
+        const searchTerms = this.searchValue.toLowerCase().split(' ').filter(x => x !== '')
 
         icons = icons.filter(i => {
           return searchTerms.every(st => i.indexOf(st) !== -1 || this.getAliasArray(cat, i).some(a => a.indexOf(st) !== -1))
