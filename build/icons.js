@@ -4,7 +4,6 @@ const axios = require('axios')
 const _ = require('lodash')
 const yaml = require('js-yaml')
 
-const TOKEN = 'bae57b823dc4da7bdfb588d8af286b55eb7d8ec6' // TODO remove
 const ICONS_URL = 'https://api.github.com/repos/google/material-design-icons/contents/${cat}/svg/production?ref=master'
 
 const ICON_CATEGORIES = [ // TODO get from icons project
@@ -35,7 +34,7 @@ const SEARCH = '24px.svg'
 const ICONS_PATH = path.join(__dirname, '..', 'icons.yml')
 
 // init axios
-axios.defaults.headers['Authorization'] = 'token ' + TOKEN
+// axios.defaults.headers['Authorization'] = 'token ' + TOKEN // using public rate limiting, should be enough
 
   ; (async () => {
     let totalCount = 0
