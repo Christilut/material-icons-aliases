@@ -338,7 +338,8 @@ action:
     - cat
   picture in picture: []
   picture in picture alt: []
-  play for work: []
+  play for work:
+    - arrow
   polymer: []
   power settings new: []
   pregnant woman: []
