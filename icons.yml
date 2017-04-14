@@ -341,99 +341,247 @@ action:
   play for work:
     - arrow
   polymer: []
-  power settings new: []
-  pregnant woman: []
-  print: []
-  query builder: []
-  question answer: []
-  receipt: []
-  record voice over: []
-  redeem: []
+  power settings new:
+    - off
+  pregnant woman:
+    - human
+    - user
+    - person
+  print:
+    - printer
+    - paper
+  query builder:
+    - clock
+    - time
+  question answer:
+    - comment
+    - message
+    - chat
+  receipt:
+    - transaction
+  record voice over:
+    - user
+    - sound
+  redeem:
+    - present
+    - giftcard
   remove shopping cart: []
-  reorder: []
-  report problem: []
-  restore: []
-  restore page: []
-  room: []
+  reorder:
+    - lines
+  report problem:
+    - triangle
+    - warning
+    - danger
+    - exclamation
+  restore:
+    - clock
+    - undo
+    - time
+    - history
+  restore page:
+    - history
+    - web
+    - undo
+  room:
+    - location
+    - gps
   rounded corner: []
-  rowing: []
-  schedule: []
-  search: []
-  settings: []
-  settings applications: []
-  settings backup restore: []
-  settings bluetooth: []
-  settings brightness: []
-  settings cell: []
-  settings ethernet: []
-  settings input antenna: []
-  settings input component: []
-  settings input composite: []
-  settings input hdmi: []
-  settings input svideo: []
+  rowing:
+    - sports
+  schedule:
+    - time
+    - clock
+  search:
+    - find
+    - looking glass
+  settings:
+    - gear
+  settings applications:
+    - gear
+  settings backup restore:
+    - time
+    - history
+    - undo
+  settings bluetooth:
+    - network
+  settings brightness:
+    - sun
+  settings cell:
+    - mobile
+    - phone
+  settings ethernet:
+    - brackets
+    - parenthesis
+    - network
+  settings input antenna:
+    - wifi
+    - network
+  settings input component:
+    - plugs
+    - cable
+  settings input composite:
+    - plugs
+    - cable
+  settings input hdmi:
+    - cable
+  settings input svideo:
+    - plugs
   settings overscan: []
   settings phone: []
   settings power: []
-  settings remote: []
-  settings voice: []
-  shop: []
-  shop two: []
+  settings remote:
+    - control
+  settings voice:
+    - microphone
+  shop:
+    - briefcase
+  shop two:
+    - briefcase
   shopping basket: []
   shopping cart: []
-  speaker notes: []
-  speaker notes off: []
-  spellcheck: []
-  stars: []
-  store: []
-  subject: []
-  supervisor account: []
-  swap horiz: []
-  swap vert: []
-  swap vertical circle: []
-  system update alt: []
+  speaker notes:
+    - message
+    - chat
+    - comment
+  speaker notes off:
+    - message
+    - chat
+    - comment
+  spellcheck:
+    - letter
+    - alphabet
+    - checkmark
+  stars:
+    - rating
+  store:
+    - building
+  subject:
+    - lines
+    - text
+  supervisor account:
+    - user
+    - administrator
+    - person
+    - human
+  swap horiz:
+    - arrows
+  swap vert:
+    - arrows
+  swap vertical circle:
+    - arrows
+  system update alt:
+    - arrow
   tab: []
   tab unselected: []
-  theaters: []
+  theaters:
+    - video
+    - media
+    - photography
   thumb down: []
   thumb up: []
   thumbs up down: []
-  timeline: []
-  toc: []
-  today: []
-  toll: []
-  touch app: []
-  track changes: []
-  translate: []
-  trending down: []
-  trending flat: []
-  trending up: []
+  timeline:
+    - chart
+    - graph
+    - line
+  toc:
+    - lines
+    - text
+  today:
+    - agenda
+    - calendar
+  toll:
+    - circles
+  touch app:
+    - hand
+  track changes:
+    - radar
+    - circle
+  translate:
+    - alphabet
+    - text
+    - letter
+  trending down:
+    - chart
+    - graph
+    - arrow
+  trending flat:
+    - arrow
+    - chart
+    - graph
+  trending up:
+    - arrow
+    - chart
+    - graph
   turned in: []
   turned in not: []
-  update: []
-  verified user: []
-  view agenda: []
-  view array: []
-  view carousel: []
-  view column: []
-  view day: []
-  view headline: []
-  view list: []
-  view module: []
-  view quilt: []
-  view stream: []
-  view week: []
-  visibility: []
-  visibility off: []
-  watch later: []
-  work: []
-  youtube searched for: []
-  zoom in: []
-  zoom out: []
+  update:
+    - clock
+    - time
+    - arrow
+    - future
+  verified user:
+    - shield
+    - checkmark
+  view agenda:
+    - blocks
+  view array:
+    - blocks
+  view carousel:
+    - blocks
+  view column:
+    - blocks
+  view day:
+    - blocks
+  view headline:
+    - blocks
+  view list:
+    - blocks
+  view module:
+    - blocks
+  view quilt:
+    - blocks
+  view stream:
+    - blocks
+  view week:
+    - blocks
+  visibility:
+    - eye
+  visibility off:
+    - eye
+    - invisible
+  watch later:
+    - clock
+    - time
+  work:
+    - briefcase
+    - suitcase
+  youtube searched for:
+    - arrow
+    - looking glass
+  zoom in:
+    - looking glass
+  zoom out:
+    - looking glass
 alert:
-  add alert: []
-  error: []
-  error outline: []
-  warning: []
+  add alert:
+    - bell
+    - notification
+    - reminder
+  error:
+    - warning
+    - danger
+    - exclamation
+    - circle
+  error outline:
+    - warning
+    - danger
+    - exclamation
+    - circle
+  warning:
+    - danger
+    - exclamation
+    - triangle
 av:
   add to queue: []
   airplay: []
