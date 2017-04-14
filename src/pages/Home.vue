@@ -88,7 +88,7 @@ export default {
     },
 
     getAliasArray (cat, icon) {
-      return this.iconIndex[cat][icon]
+      return this.iconIndex[cat][icon] || []
     },
 
     aliasString (cat, icon) {
@@ -227,12 +227,13 @@ $textColor: rgba(255, 255, 255, 0.9);
       display: flex;
       flex-wrap: wrap;
       width: 100%;
+      justify-content: center;
 
       .icon {
         display: flex;
         flex-direction: column;
-        align-items: center;
         margin: 20px 20px 10px 0;
+        align-items: center;
         width: 150px;
 
         @include phone {
