@@ -13,7 +13,7 @@
     p So I present to you: alias search!
     p If you find an alias missing, please don't hesitate to
       =" "
-      a(href="", target='_blank') open a pull request.
+      a(href='https://github.com/Christilut/material-icons-aliases', target='_blank') open a pull request.
   .search(:style='{ "position": searchPosition }')
     i.material-icons search
     input(type='text', v-model='searchValue', placeholder='Search aliases...')
@@ -96,25 +96,22 @@ export default {
   },
   mounted () {
     window.addEventListener('scroll', (e) => {
-      if (window.scrollY > 360) {
+      if (window.innerWidth > 600 ? window.scrollY > 360 : window.scrollY > 550) {
         this.searchPosition = 'fixed'
       } else {
         this.searchPosition = 'relative'
       }
     })
-  },
-  watch: {
-    searchValue (v) {
-
-    }
   }
 }
 </script>
 
 <style lang="scss" scoped>
 @import 'src/styles/variables';
+@import 'src/styles/layout';
 
 $headerHeight: 300px;
+$headerHeightPhone: 430px;
 $gutter: 30px;
 $textColor: rgba(255, 255, 255, 0.9);
 
@@ -124,6 +121,11 @@ $textColor: rgba(255, 255, 255, 0.9);
   background: $primary;
   color: $textColor;
   position: relative;
+
+  @include phone {
+    padding: 100px 20px 20px 20px;
+    height: $headerHeightPhone;
+  }
 
   .credits {
     position: absolute;
@@ -201,9 +203,12 @@ $textColor: rgba(255, 255, 255, 0.9);
 
   .category {
     background: #eee;
-    margin: 20px 0;
     padding: 70px 30px 30px 30px;
     position: relative;
+
+    @include phone {
+      padding: 70px 10px 30px 10px;
+    }
 
     .title {
       text-transform: uppercase;
@@ -211,6 +216,10 @@ $textColor: rgba(255, 255, 255, 0.9);
       position: absolute;
       top: 30px;
       left: 70px;
+
+      @include phone {
+        left: 55px;
+      }
     }
 
     .icons {
@@ -224,6 +233,10 @@ $textColor: rgba(255, 255, 255, 0.9);
         align-items: center;
         margin: 20px 20px 10px 0;
         width: 150px;
+
+        @include phone {
+          width: 120px;
+        }
 
         i {
           color: #888;
