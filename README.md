@@ -1,30 +1,22 @@
-# materials-icons-aliases
+# Material Design Icons .. with aliases
 
-> A Vue.js project
+Feel free to contribute an alias!
 
-## Build Setup
+# Contributing
 
-``` bash
-# install dependencies
-npm install
+## Aliases
+Just open a PR on the `icons.yml` file and add your aliases.
+Keep in mind that the aliases do have a few rules in order to prevent chaos:
+  - They should be in English (feel free to fork and create your own language version)
+  - An alias should be a commonly used word
+  - Try to be consistent and check the file if your aliases already exists in a different form (e.g. `finances` and `financial`, pick whichever is already in use)
 
-# serve with hot reload at localhost:8080
-npm run dev
+## Bugs
+Found a bug? Got a device that the site doesn't work on? Feel free to submit an issue or PR and I'll take a look.
 
-# build for production with minification
-npm run build
+IE9 and lower is not supported.
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# License
+MIT
 
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Google, if your're reading this: feel free to take the `icons.yml` alias file and integrate it in your own icon search website.

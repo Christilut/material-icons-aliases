@@ -1,6 +1,20 @@
 <template lang="pug">
 .flex-column
-  .search
+  .header
+    a.github(href='https://github.com/Christilut/material-icons-aliases', target='_blank')
+      img(src='/static/images/github.svg')
+      .text Contribute!
+    .credits Created by
+      =" "
+      a(href='https://github.com/Christilut', target='_blank') Christiaan Maks
+    h1 Material Design Icons
+    h2 ... with aliases!
+    p I got sick of the Material Design Icons search page which doesn't have any aliases so after failing my search I always ended up scrolling the list.
+    p So I present to you: alias search!
+    p If you find an alias missing, please don't hesitate to
+      =" "
+      a(href="", target='_blank') open a pull request.
+  .search(:style='{ "position": searchPosition }')
     i.material-icons search
     input(type='text', v-model='searchValue', placeholder='Search aliases...')
   .categories
@@ -10,6 +24,11 @@
         .icon(v-for='icon in iconsForCategory(cat)', :title='aliasString(cat, icon)')
           i.material-icons {{ sanitizeIconName(icon) }}
           .name {{ icon }}
+  .footer
+    p You can get the Material Design Icons on the
+      =" "
+      a(href='https://material.io/icons/', target='blank') official Google page.
+    p Material Design Icons are property of Google and this website is not affiliated with Google in any way.
 </template>
 
 <script>
@@ -37,7 +56,8 @@ export default {
   data () {
     return {
       searchValue: '',
-      iconIndex: require('src/../icons.yml')
+      iconIndex: require('src/../icons.yml'),
+      searchPosition: 'relative'
     }
   },
   computed: {
@@ -74,6 +94,15 @@ export default {
       return [icon].concat(this.getAliasArray(cat, icon)).join(', ')
     }
   },
+  mounted () {
+    window.addEventListener('scroll', (e) => {
+      if (window.scrollY > 360) {
+        this.searchPosition = 'fixed'
+      } else {
+        this.searchPosition = 'relative'
+      }
+    })
+  },
   watch: {
     searchValue (v) {
 
@@ -85,18 +114,69 @@ export default {
 <style lang="scss" scoped>
 @import 'src/styles/variables';
 
+$headerHeight: 300px;
+$gutter: 30px;
+$textColor: rgba(255, 255, 255, 0.9);
+
+.header {
+  height: $headerHeight;
+  padding: $gutter $gutter * 2;
+  background: $primary;
+  color: $textColor;
+  position: relative;
+
+  .credits {
+    position: absolute;
+    right: $gutter;
+    bottom: 20px;
+  }
+
+  .github {
+    position: absolute;
+    height: 60px;
+    right: $gutter;
+    top: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+
+    &:after {
+      background: none;
+    }
+
+    img {
+      height: 100%;
+    }
+
+    .text {
+      position: relative;
+      top: -5px;
+      font-size: 14px;
+      color: $textColor;
+      border: none;
+    }
+  }
+}
+
 .search {
   display: flex;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 10;
+  height: 0;
 
   i {
     position: absolute;
     left: 10px;
-    top: 10px;
+    top: 15px;
     font-size: 36px;
     color: #888;
   }
@@ -104,10 +184,15 @@ export default {
   input {
     display: flex;
     flex-grow: 1;
-    height: 50px;
+    height: 60px;
     padding-left: 50px;
     border: none;
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+
+    &:focus {
+      outline: none;
+    }
   }
 }
 
@@ -154,6 +239,17 @@ export default {
       }
     }
   }
+}
+
+.footer {
+  height: 200px;
+  background: $primary;
+  color: $textColor;
+  padding: $gutter;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 </style>
