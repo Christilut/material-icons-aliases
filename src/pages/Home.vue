@@ -1,19 +1,20 @@
 <template lang="pug">
 .flex-column
   .header
-    a.github(href='https://github.com/Christilut/material-icons-aliases', target='_blank')
-      img(src='/static/images/github.svg')
-      .text Contribute!
-    .credits Created by
-      =" "
-      a(href='https://github.com/Christilut', target='_blank') Christiaan Maks
-    h1 Material Design Icons
-    h2 ... with aliases!
-    p I got sick of the Material Design Icons search page which doesn't have any aliases so after failing my search I always ended up scrolling the list.
-    p So I present to you: alias search!
-    p If you find an alias missing, please don't hesitate to
-      =" "
-      a(href='https://github.com/Christilut/material-icons-aliases', target='_blank') open a pull request.
+    .header-contents
+      a.github(href='https://github.com/Christilut/material-icons-aliases', target='_blank')
+        img(src='/static/images/github.svg')
+        .text Contribute!
+      .credits Created by
+        =" "
+        a(href='https://github.com/Christilut', target='_blank') Christiaan Maks
+      h1 Material Design Icons
+      h2 ... with aliases!
+      p I got sick of the Material Design Icons search page which doesn't have any aliases so after failing my search I always ended up scrolling the list.
+      p So I present to you: alias search!
+      p If you find an alias missing, please don't hesitate to
+        =" "
+        a(href='https://github.com/Christilut/material-icons-aliases', target='_blank') open a pull request.
   .search(:style='{ "position": searchPosition }')
 
     i.material-icons search
@@ -118,14 +119,20 @@ $textColor: rgba(255, 255, 255, 0.9);
 
 .header {
   height: $headerHeight;
-  padding: $gutter $gutter * 2;
   background: $primary;
   color: $textColor;
-  position: relative;
+  padding: $gutter $gutter * 2;
 
   @include phone {
     padding: 100px 20px 20px 20px;
     height: $headerHeightPhone;
+  }
+
+  .header-contents {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
   }
 
   .credits {
@@ -138,7 +145,7 @@ $textColor: rgba(255, 255, 255, 0.9);
     position: absolute;
     height: 60px;
     right: $gutter;
-    top: 20px;
+    top: 0;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -152,6 +159,10 @@ $textColor: rgba(255, 255, 255, 0.9);
 
     &:after {
       background: none;
+    }
+
+    @include phone {
+      top: -90px;
     }
 
     img {
