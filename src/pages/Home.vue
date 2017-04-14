@@ -201,9 +201,11 @@ $textColor: rgba(255, 255, 255, 0.9);
 
 .categories {
   margin-top: 50px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 
   .category {
-    background: #eee;
     padding: 70px 30px 30px 30px;
     position: relative;
 
@@ -214,13 +216,7 @@ $textColor: rgba(255, 255, 255, 0.9);
     .title {
       text-transform: uppercase;
       font-weight: bold;
-      position: absolute;
-      top: 30px;
-      left: 70px;
-
-      @include phone {
-        left: 55px;
-      }
+      text-align: center;
     }
 
     .icons {
