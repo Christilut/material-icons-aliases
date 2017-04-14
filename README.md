@@ -16,6 +16,14 @@ Found a bug? Got a device that the site doesn't work on? Feel free to submit an 
 
 IE9 and lower is not supported.
 
+# Developing
+
+Install dependencies
+`npm install`
+
+Run the project
+`npm run dev`
+
 # License
 MIT
 
