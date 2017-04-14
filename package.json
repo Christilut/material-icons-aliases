@@ -1,11 +1,17 @@
 {
   "name": "materials-icons-aliases",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "Christiaan Maks <christilut@gmail.com>",
+  "description": "Material Design Icons, with alias search",
+  "author": "Christiaan Maks",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Christilut/material-icons-aliases.git"
+  },
+  "homepage": "https://materialicons-alias.today",
   "scripts": {
     "buildIcons": "node --harmony build/icons.js",
+    "deploy": "npm run build && firebase deploy",
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
@@ -101,6 +107,6 @@
   "browserslist": [
     "> 1%",
     "last 2 versions",
-    "not ie <= 8"
+    "not ie <= 9"
   ]
 }
