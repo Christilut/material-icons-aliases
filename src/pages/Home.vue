@@ -15,6 +15,7 @@
       =" "
       a(href='https://github.com/Christilut/material-icons-aliases', target='_blank') open a pull request.
   .search(:style='{ "position": searchPosition }')
+
     i.material-icons search
     input(type='text', v-model='searchValue', placeholder='Search aliases...')
   .categories
