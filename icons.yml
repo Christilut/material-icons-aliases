@@ -476,9 +476,12 @@ action:
     - video
     - media
     - photography
-  thumb down: []
-  thumb up: []
-  thumbs up down: []
+  thumb down:
+    - hand
+  thumb up:
+    - hand
+  thumbs up down:
+    - hand
   timeline:
     - chart
     - graph

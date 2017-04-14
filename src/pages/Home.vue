@@ -241,7 +241,7 @@ $textColor: rgba(255, 255, 255, 0.9);
       .icon {
         display: flex;
         flex-direction: column;
-        margin: 20px 20px 10px 0;
+        margin: 20px 10px 10px 10px;
         align-items: center;
         width: 150px;
 
