@@ -73,7 +73,7 @@ const ICONS_PATH = path.join(__dirname, '..', 'icons.yml')
     fs.writeFileSync(ICONS_PATH, yaml.safeDump(mergedIconsOrdered), null, '  ')
 
     if (process.argv[2] === 'commit') {
-      shell.exec('git add --all')
+      shell.exec('git add icons.yml')
       shell.exec('git commit -n -m "automated commit"')
       shell.exec('git push')
     }
