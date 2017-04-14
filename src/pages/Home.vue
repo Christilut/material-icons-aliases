@@ -98,7 +98,7 @@ export default {
   },
   mounted () {
     window.addEventListener('scroll', (e) => {
-      if (window.innerWidth > 600 ? window.scrollY > 360 : window.scrollY > 550) {
+      if (window.innerWidth > 600 ? window.pageYOffset > 360 : window.pageYOffset > 550) {
         this.searchPosition = 'fixed'
       } else {
         this.searchPosition = 'relative'
@@ -144,6 +144,7 @@ $textColor: rgba(255, 255, 255, 0.9);
   .github {
     position: absolute;
     height: 60px;
+    width: 60px;
     right: $gutter;
     top: 0;
     cursor: pointer;
@@ -167,6 +168,7 @@ $textColor: rgba(255, 255, 255, 0.9);
 
     img {
       height: 100%;
+      width: 100%;
     }
 
     .text {

@@ -6,10 +6,6 @@ import router from './router'
 
 Vue.config.productionTip = false
 
-import Icon from 'vue-awesome/components/Icon.vue'
-import 'vue-awesome/icons'
-Vue.component('icon', Icon)
-
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
