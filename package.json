@@ -11,7 +11,7 @@
   "homepage": "https://materialicons-alias.today",
   "scripts": {
     "buildIcons": "node --harmony build/icons.js",
-    "deploy": "npm run build && firebase deploy",
+    "deploy": "git pull && npm run build && firebase deploy",
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
