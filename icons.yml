@@ -2023,10 +2023,16 @@ social:
   school:
     - university
     - college
+  sentiment very dissatisfied:
+    - smiley
+    - emoji
+    - emoticon
+    - sad
   sentiment dissatisfied:
     - smiley
     - emoji
     - emoticon
+    - sad
   sentiment neutral:
     - smiley
     - emoji
@@ -2035,14 +2041,12 @@ social:
     - smiley
     - emoji
     - emoticon
-  sentiment very dissatisfied:
-    - smiley
-    - emoji
-    - emoticon
+    - happy
   sentiment very satisfied:
     - smiley
     - emoji
     - emoticon
+    - happy
   share: []
   whatshot:
     - fire
