@@ -24,8 +24,8 @@ Install dependencies
 Run the project
 `npm run dev`
 
-# Automated icon updates
-A cronjob runs the `buildIcons` job every night which retrieves and merges any icons the official Material Icons repo has. This then gets pushed automatically to Github.
+# Icon updates
+Since icon updates from Google are infrequent, I'm doing them manually but should they suddenly start updating every day then I'll create a script for it.
 
 # License
 MIT
