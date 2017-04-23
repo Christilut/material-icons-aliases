@@ -18,7 +18,7 @@
   .search(:style='{ "position": searchPosition }')
 
     i.material-icons search
-    input(type='text', v-model='searchValue', placeholder='Search aliases...')
+    input(type='text', v-model='searchValue', placeholder='Search aliases...', autofocus)
   .categories
     .category(v-for='cat in categories', v-if='iconsForCategory(cat).length > 0')
       .title {{ cat }}
