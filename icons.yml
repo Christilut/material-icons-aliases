@@ -1309,10 +1309,14 @@ hardware:
   headset mic:
     - headphones
   keyboard: []
-  keyboard arrow down: []
-  keyboard arrow left: []
-  keyboard arrow right: []
-  keyboard arrow up: []
+  keyboard arrow down:
+    - chevron
+  keyboard arrow left:
+    - chevron
+  keyboard arrow right:
+    - chevron
+  keyboard arrow up:
+    - chevron
   keyboard backspace: []
   keyboard capslock:
     - arrow
