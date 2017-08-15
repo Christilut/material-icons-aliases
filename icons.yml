@@ -1126,6 +1126,7 @@ device:
   storage:
     - network
     - server
+    - database
   usb: []
   wallpaper:
     - image
