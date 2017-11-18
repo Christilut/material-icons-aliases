@@ -1,6 +1,7 @@
 action:
   3d rotation:
     - arrows
+    - vr
   accessibility:
     - user
     - person
@@ -33,6 +34,7 @@ action:
     - arrows
     - circle
     - directional
+    - expand
   android:
     - operating system
   announcement:
@@ -120,10 +122,12 @@ action:
     - trashcan
     - bin
     - recycle
+    - junk
   delete forever:
     - trashcan
     - bin
     - recycle
+    - junk
   description:
     - file
     - document
@@ -198,6 +202,8 @@ action:
     - rate
   group work:
     - circle
+    - film
+    - reel
   help:
     - question mark
   help outline:
@@ -231,6 +237,8 @@ action:
     - web
     - security
     - lock
+    - ssl
+    - encrypt
   important devices:
     - computer
     - phone
@@ -295,6 +303,7 @@ action:
   open with:
     - arrows
     - directional
+    - expand
   pageview:
     - search
     - find
@@ -426,7 +435,8 @@ action:
     - cable
   settings input svideo:
     - plugs
-  settings overscan: []
+  settings overscan:
+    - expand
   settings phone: []
   settings power: []
   settings remote:
@@ -596,6 +606,7 @@ av:
   album:
     - vinyl
     - cd
+    - record
   art track: []
   av timer:
     - stopwatch
@@ -747,7 +758,7 @@ communication:
   business:
     - building
     - flat
-    - appartment
+    - apartment
   call:
     - phone
   call end:
@@ -792,6 +803,7 @@ communication:
     - phone
   dialpad:
     - dots
+    - phone
   email:
     - letter
     - envelope
@@ -811,6 +823,7 @@ communication:
   live help:
     - comment
     - question
+    - faq
   location off:
     - gps
   location on:
@@ -1960,11 +1973,12 @@ places:
     - swimming
   room service:
     - bell
+    - concierge
   rv hookup: []
   smoke free:
-    - sigarette
+    - cigarette
   smoking rooms:
-    - sigarette
+    - cigarette
   spa:
     - flower
 social:
