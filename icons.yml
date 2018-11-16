@@ -1508,6 +1508,12 @@ image:
     - flower
   flare:
     - lensflare
+    - sun
+    - star
+    - light
+    - bright
+    - shine
+    - sparkle
   flash auto:
     - lightning
   flash off:
