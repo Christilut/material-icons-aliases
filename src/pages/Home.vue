@@ -3,7 +3,7 @@
   .header
     .header-contents
       a.github(href='https://github.com/Christilut/material-icons-aliases', target='_blank')
-        img(src='/static/images/github.svg')
+        img(src='/material-icons-aliases/static/images/github.svg')
         .text Contribute!
       .credits Created by
         =" "
