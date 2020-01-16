@@ -12,7 +12,7 @@
   "scripts": {
     "buildIcons": "node --harmony build/icons.js",
     "commitIcons": "npm run buildIcons -- commit",
-    "deploy": "git pull && npm run build && firebase deploy",
+    "deploy": "git subtree push --prefix dist origin gh-pages",
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
@@ -23,7 +23,7 @@
     "js-yaml": "^3.8.3",
     "lodash": "^4.17.4",
     "material-design-icons": "^3.0.1",
-    "node-sass": "^4.5.2",
+    "node-sass": "4.13.1",
     "pug": "^2.0.0-beta11",
     "pug-loader": "^2.3.0",
     "sass-loader": "^6.0.3",
