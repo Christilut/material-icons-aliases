@@ -1,5 +1,7 @@
 # Material Design Icons .. with aliases
 
+You can find the page [here](https://christilut.github.io/material-icons-aliases)
+
 Feel free to contribute an alias!
 
 # Contributing
