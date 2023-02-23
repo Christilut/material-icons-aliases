@@ -1,4 +1,14 @@
-# Material Design Icons .. with aliases
+# Material Design Icons .. with aliases (DEPRECATED)
+
+No longer needed!
+
+https://pictogrammers.com/library/mdi/
+and
+https://fonts.google.com/icons?icon.style=Filled&icon.set=Material+Icons
+
+Both have a better search now with aliases.
+
+--
 
 You can find the page [here](https://christilut.github.io/material-icons-aliases)
 
